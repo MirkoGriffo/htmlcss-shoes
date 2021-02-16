@@ -30,7 +30,7 @@ html {
   text-decoration: none;
   width: 30px;
   height: 30px;
-  padding: 6px;
+  padding: 7px;
   color: black;
   background-color: white;
   border-radius: 50%;
@@ -46,12 +46,16 @@ html {
 #red img {
   display: block;
   margin: auto;
+  position: relative;
+  top: 120px;
 }
 
 #red h1 {
   color: yellow;
   text-align: center;
-  font-size: 80px;
+  font-size: 60px;
+  position: relative;
+  top: 120px;
 }
 
 /* Section 2 */
@@ -64,10 +68,36 @@ html {
 #green img {
   display: block;
   margin: auto;
+  position: relative;
+  top: 120px;
 }
 
 #green h1 {
   color: yellow;
   text-align: center;
-  font-size: 80px;
+  font-size: 60px;
+  position: relative;
+  top: 120px;
+}
+
+/* Section 3 */
+
+#yellow {
+  background-color: yellow;
+  height: 100vh;
+}
+
+#yellow img {
+  display: block;
+  margin: auto;
+  position: relative;
+  top: 120px;
+}
+
+#yellow h1 {
+  color: green;
+  text-align: center;
+  font-size: 60px;
+  position: relative;
+  top: 120px;
 }
