@@ -53,3 +53,21 @@ html {
   text-align: center;
   font-size: 80px;
 }
+
+/* Section 2 */
+
+#green {
+  background-color: green;
+  height: 100vh;
+}
+
+#green img {
+  display: block;
+  margin: auto;
+}
+
+#green h1 {
+  color: yellow;
+  text-align: center;
+  font-size: 80px;
+}
