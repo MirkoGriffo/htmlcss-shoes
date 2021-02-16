@@ -1,1 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: "Rubik Mono One", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navigation */
+
+.navigation {
+  position: fixed;
+  top: 10px;
+  right: 30px;
+}
+
+.navigation ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+.navigation ul li a {
+  display: inline-block;
+  text-decoration: none;
+  width: 30px;
+  height: 30px;
+  padding: 6px;
+  color: black;
+  background-color: white;
+  border-radius: 50%;
+}
+
+/* Section 1 */
+
+#red {
+  background-color: red;
+  height: 100vh;
+}
+
+#red img {
+  display: block;
+  margin: auto;
+}
+
+#red h1 {
+  color: yellow;
+  text-align: center;
+  font-size: 80px;
+}
